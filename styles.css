@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* font-family: 'Red Hat Display', sans-serif; */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    /* Colors - Primary */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+  
+    /* Colors - Neutral */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+  }
+
+body{
+    background-color: var(--pale-blue);
+}
+
+    .contenedorPrincipal{
+        height: 567px;
+        width: 325px;
+        background-color: white;
+        border-radius: 20px;
+        margin: 50px auto;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 16px;
+
+    }
+
+        .contenedorSVG{
+           height: 160px;
+            
+
+        }
+
+         .contenedorSVG svg{
+            width: 100%;
+            height: auto;
+            border-radius: 20px 20px 0 0;
+            
+         }
+
+        .textos{
+
+        }
+
+            .titulo{
+                font-size: 22px;
+                font-weight: 900;
+                text-align: center;
+                color: var(--dark-blue);
+                margin: 20px;
+            }
+
+            .parrafoPrincipal{
+                text-align: center;
+                font-size: 16px;
+                margin: 0 25px;
+                line-height: 1.5;
+                opacity: .5;
+            }
+
+        .planAnual{
+            margin: 20px 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            border: 1px solid black;
+        }
+
+            .planAnual svg{
+
+            }
+
+            .textoPlan{
+
+            }
+
+                .textoPlan h2{
+
+                }
+
+                .textoPlan h3{
+
+                }
+
+            .planAnual a{
+                font-size: 14px;
+            }
